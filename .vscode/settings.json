@@ -115,7 +115,8 @@
         "condition_variable": "cpp",
         "numeric": "cpp",
         "random": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "timers.h": "c"
     },
     // Configure paths or glob patterns to exclude from file watching.
     "files.watcherExclude": {
@@ -169,5 +170,6 @@
     "C_Cpp.default.cppStandard": "gnu++14",
     "C_Cpp.default.cStandard": "gnu11",
     "cmake.configureOnOpen": false,
-    "search.followSymlinks": false
+    "search.followSymlinks": false,
+    "commentTranslate.targetLanguage": "vi"
 }
